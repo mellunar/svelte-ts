@@ -10,7 +10,6 @@ This is a project template for [Svelte](https://svelte.dev) apps.
 Install the dependencies...
 
 ```bash
-cd svelte-app
 npm install
 ```
 
