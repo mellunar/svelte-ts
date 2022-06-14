@@ -1,15 +1,12 @@
 <script>
-	import { t } from "svelte-i18n";
-	import { Router } from "@roxi/routify";
+  import { t } from "svelte-i18n";
+  import { Router } from "@roxi/routify";
   import { routes } from "../.routify/routes";
+  import "./app.scss";
 </script>
 
-<style global lang="scss">
-	@import './app.scss';
-</style>
-
 <nav class="nav">
-	<a href='/'>Home</a>
-	<a href='/about'>{$t('about.title')}</a>
+  <a href="/">Home</a>
+  <a href="/about">{$t("about.title")}</a>
 </nav>
 <Router {routes} />
