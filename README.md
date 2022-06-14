@@ -2,8 +2,7 @@
 
 This is a project template for [Svelte](https://svelte.dev) apps.
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
+_Note that you will need to have [Node.js](https://nodejs.org) installed._
 
 ## Get started
 
@@ -33,8 +32,7 @@ To create an optimised version of the app:
 npm run build
 ```
 
-You can run the newly built app with `npm run start`.
-
+You can run the newly built app with `npm run dev`.
 
 ## Aditional content
 
@@ -43,4 +41,3 @@ Routify documentation: https://www.routify.dev/
 Sass: https://sass-lang.com/
 
 Svelte i18n: https://github.com/kaisermann/svelte-i18n
-
