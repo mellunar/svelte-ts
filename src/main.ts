@@ -1,4 +1,4 @@
-import App from "./App.svelte";
+import App from './App.svelte';
 import { addMessages, init, getLocaleFromNavigator } from 'svelte-i18n';
 
 import en from './locales/en.json';
@@ -15,7 +15,7 @@ init({
 });
 
 const app = new App({
-  target: document.getElementById("app"),
+  target: document.getElementById('app'),
 });
 
 export default app;

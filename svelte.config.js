@@ -1,7 +1,7 @@
-import preprocess from "svelte-preprocess";
+import sveltePreprocess from 'svelte-preprocess';
 
-const config = {
-  preprocess: [preprocess({})],
+export default {
+  // Consult https://github.com/sveltejs/svelte-preprocess
+  // for more information about preprocessors
+  preprocess: sveltePreprocess(),
 };
-
-export default config;
